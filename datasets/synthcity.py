@@ -71,7 +71,7 @@ if __name__ == "__main__":
     else:
         preprocess_val = False
 
-    dirname_to_label = {"building": "building"}
+    dirname_to_label = {"building": 0}
     # with open('dirname_to_label.txt', 'r') as f:
     #     for line in f:
     #         dirname, label = line.strip('\n').split(' ')
