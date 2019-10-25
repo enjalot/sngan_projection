@@ -80,7 +80,7 @@ if __name__ == "__main__":
 
     count = 0
     n_image_list = []
-    filenames = glob.glob(root_path + '/*/*.JPEG')
+    filenames = glob.glob(root_path + '/*/*.jpg')
     for filename in filenames:
         filename = filename.split('/')
         dirname = filename[-2]
