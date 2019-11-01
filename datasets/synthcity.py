@@ -9,7 +9,8 @@ import random
 import scipy.misc
 
 # classes_dog_and_cat = np.arange(151, 294, dtype=np.int32)
-class_to_index = dict({"building": 0})
+# class_to_index = dict({"building": 0})
+class_to_index = dict({0: 0})
 # for i, c in enumerate(classes_dog_and_cat):
 #     class_to_index[c] = i
 
